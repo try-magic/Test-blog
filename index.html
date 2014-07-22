@@ -9,17 +9,37 @@
 	<header class="header">
 		<div class="container">
 			<a class="logo"><i class="icon icon-cloud"></i><i class="icon icon-desklamp"></i></a>
+			<form class="search-form" name="search-form">
+				<input type="text" class="search-input" name="search-input" placeholder="Search..."/>
+				<a href="#" class="btn btn-primary"><i class="icon icon-search"></i></a>
+			</form>
 			<ul class="header__menu">
-				<li><a href="#home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-				<li><a href="#game"><span class="glyphicon glyphicon-star"></span> Game</a></li>
-				<li><a href="#settings"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
+				<li><a href="#blog">Blog</a></li>
+				<li><a href="#about">About author</a></li>
 			</ul>
 		</div>
 	</header>
 	<section class="content">
 		<div class="container">
 			<aside class="right-col pull-right">
-				
+				<section class="category-list">
+					<h3 class="title">Categories</h3>
+					<ul class="categories">
+						<li><a class="link" href="#">Javascript</a></li>
+						<li><a class="link" href="#">HTML</a></li>
+						<li><a class="link" href="#">CSS</a></li>
+					</ul>
+				</section>
+				<section class="tag-list">
+					<h3 class="title">Tags</h3>
+					<ul class="tags list-inline">
+						<li><a class="btn btn-primary" href="#">tag1</a></li>
+						<li><a class="btn btn-primary" href="#">tag2</a></li>
+						<li><a class="btn btn-primary" href="#">tag3</a></li>
+						<li><a class="btn btn-primary" href="#">tag4</a></li>
+						<li><a class="btn btn-primary" href="#">tag5</a></li>
+					</ul>
+				</section>
 			</aside>
 			<div class="main-col pull-left">
 				<article class="article">
@@ -27,7 +47,99 @@
 						<h2 class="article__title"><a class="link" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h2>
 						<time>2014-07-18 12:33</time>
 					</header>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean imperdiet augue id elit semper suscipit. Integer in sem mauris. Donec erat enim, dapibus in ipsum sed, consequat auctor lectus. Mauris dignissim posuere est, ut hendrerit velit tristique eget. Morbi cursus diam felis, nec consectetur diam adipiscing eu. Integer ornare mauris cursus nibh aliquam, eu accumsan nibh interdum. Aliquam vestibulum eros non velit venenatis placerat. Etiam eget sodales nisi. Pellentesque id urna ligula. Vivamus quis dignissim tortor. Donec semper, dolor vitae ornare elementum, metus nibh varius quam, et condimentum justo purus ac nisl. Proin at est ac tortor congue venenatis. Sed aliquet interdum nibh, vitae iaculis ligula. Ut at laoreet mi. Suspendisse vulputate ante sit amet adipiscing dignissim.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+					imperdiet augue id elit semper suscipit. Integer in sem mauris. Donec 
+					erat enim, dapibus in ipsum sed, consequat auctor lectus. Mauris 
+					dignissim posuere est, ut hendrerit velit tristique eget. Morbi 
+					cursus diam felis, nec consectetur diam adipiscing eu. Integer 
+					ornare mauris cursus nibh aliquam, eu accumsan nibh interdum.</p>
+					<p>Aliquam vestibulum eros non velit venenatis placerat. Etiam eget sodales 
+					nisi. Pellentesque id urna ligula. Vivamus quis dignissim tortor. 
+					Donec semper, dolor vitae ornare elementum, metus nibh varius quam, 
+					et condimentum justo purus ac nisl. Proin at est ac tortor congue 
+					venenatis. Sed aliquet interdum nibh, vitae iaculis ligula. Ut at 
+					laoreet mi. Suspendisse vulputate ante sit amet adipiscing dignissim.</p>
+					<footer class="article__footer clearfix">
+						<ul class="tags list-inline">
+							<li><a class="btn btn-primary" href="#">tag1</a></li>
+							<li><a class="btn btn-primary" href="#">tag2</a></li>
+							<li><a class="btn btn-primary" href="#">tag3</a></li>
+							<li><a class="btn btn-primary" href="#">tag4</a></li>
+							<li><a class="btn btn-primary" href="#">tag5</a></li>
+						</ul>
+						<ul class="social-links list-inline pull-left">
+							<li><a class="link" href="#"><i class="icon icon-twitter"></i></a></li>
+							<li><a class="link" href="#"><i class="icon icon-facebook"></i></a></li>
+							<li><a class="link" href="#"><i class="icon icon-googleplus"></i></a></li>
+						</ul>
+						<a class="link article__comments-link pull-right" href="#">3 comments</a>
+					</footer>
+				</article>
+				<article class="article">
+					<header class="article__header">
+						<h2 class="article__title"><a class="link" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h2>
+						<time>2014-07-18 12:33</time>
+					</header>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+					imperdiet augue id elit semper suscipit. Integer in sem mauris. Donec 
+					erat enim, dapibus in ipsum sed, consequat auctor lectus. Mauris 
+					dignissim posuere est, ut hendrerit velit tristique eget. Morbi 
+					cursus diam felis, nec consectetur diam adipiscing eu. Integer 
+					ornare mauris cursus nibh aliquam, eu accumsan nibh interdum.</p>
+					<p>Aliquam vestibulum eros non velit venenatis placerat. Etiam eget sodales 
+					nisi. Pellentesque id urna ligula. Vivamus quis dignissim tortor. 
+					Donec semper, dolor vitae ornare elementum, metus nibh varius quam, 
+					et condimentum justo purus ac nisl. Proin at est ac tortor congue 
+					venenatis. Sed aliquet interdum nibh, vitae iaculis ligula. Ut at 
+					laoreet mi. Suspendisse vulputate ante sit amet adipiscing dignissim.</p>
+					<footer class="article__footer clearfix">
+						<ul class="tags list-inline">
+							<li><a class="btn btn-primary" href="#">tag1</a></li>
+							<li><a class="btn btn-primary" href="#">tag2</a></li>
+							<li><a class="btn btn-primary" href="#">tag3</a></li>
+							<li><a class="btn btn-primary" href="#">tag4</a></li>
+							<li><a class="btn btn-primary" href="#">tag5</a></li>
+						</ul>
+						<ul class="social-links list-inline pull-left">
+							<li><a class="link" href="#"><i class="icon icon-twitter"></i></a></li>
+							<li><a class="link" href="#"><i class="icon icon-facebook"></i></a></li>
+							<li><a class="link" href="#"><i class="icon icon-googleplus"></i></a></li>
+						</ul>
+						<a class="link article__comments-link pull-right" href="#">2 comments</a>
+					</footer>
+				</article>
+				<article class="article">
+					<header class="article__header">
+						<h2 class="article__title"><a class="link" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h2>
+						<time>2014-07-18 12:33</time>
+					</header>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+					imperdiet augue id elit semper suscipit. Integer in sem mauris. Donec 
+					erat enim, dapibus in ipsum sed, consequat auctor lectus. Mauris 
+					dignissim posuere est, ut hendrerit velit tristique eget. Morbi 
+					cursus diam felis, nec consectetur diam adipiscing eu. Integer 
+					ornare mauris cursus nibh aliquam, eu accumsan nibh interdum.</p>
+					<p>Aliquam vestibulum eros non velit venenatis placerat. Etiam eget sodales 
+					nisi. Pellentesque id urna ligula. Vivamus quis dignissim tortor. 
+					Donec semper, dolor vitae ornare elementum, metus nibh varius quam, 
+					et condimentum justo purus ac nisl. Proin at est ac tortor congue 
+					venenatis. Sed aliquet interdum nibh, vitae iaculis ligula. Ut at 
+					laoreet mi. Suspendisse vulputate ante sit amet adipiscing dignissim.</p>
+					<footer class="article__footer clearfix">
+						<ul class="tags list-inline">
+							<li><a class="btn btn-primary" href="#">tag1</a></li>
+							<li><a class="btn btn-primary" href="#">tag2</a></li>
+							<li><a class="btn btn-primary" href="#">tag3</a></li>
+							<li><a class="btn btn-primary" href="#">tag4</a></li>
+							<li><a class="btn btn-primary" href="#">tag5</a></li>
+						</ul>
+						<ul class="social-links list-inline pull-left">
+							<li><a class="link" href="#"><i class="icon icon-twitter"></i></a></li>
+							<li><a class="link" href="#"><i class="icon icon-facebook"></i></a></li>
+							<li><a class="link" href="#"><i class="icon icon-googleplus"></i></a></li>
+						</ul>
+						<a class="link article__comments-link pull-right" href="#">2 comments</a>
+					</footer>
 				</article>
 			</div>
 		</div>
